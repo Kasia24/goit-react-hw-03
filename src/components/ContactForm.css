@@ -10,4 +10,6 @@
 }
 .classBtn {
   width: fit-content;
+  background-color: lightgrey;
+  justify-items: center;
 }
