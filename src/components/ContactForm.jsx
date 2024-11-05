@@ -2,6 +2,7 @@ import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { nanoid } from "nanoid";
+import "./ContactForm.css";
 
 const validationSchema = Yup.object().shape({
   name: Yup.string()
@@ -20,7 +21,7 @@ const ContactForm = ({ addContact }) => (
       resetForm();
     }}
   >
-    <Form>
+    <Form className="classForm">
       <label>
         Name:
         <Field type="text" name="name" />
