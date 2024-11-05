@@ -1,12 +1,14 @@
 import React from "react";
 
 const SearchBox = ({ filter, setFilter }) => (
-  <input
+  <label
+    className="classLabel"
     type="text"
     value={filter}
     onChange={(e) => setFilter(e.target.value)}
-    placeholder="Search contacts..."
-  />
+  >
+    Find contacts by name
+  </label>
 );
 
 export default SearchBox;
