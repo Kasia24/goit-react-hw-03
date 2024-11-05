@@ -3,3 +3,8 @@
   flex-direction: column;
   gap: 20px;
 }
+.classLabel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

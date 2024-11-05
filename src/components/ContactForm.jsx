@@ -22,13 +22,13 @@ const ContactForm = ({ addContact }) => (
     }}
   >
     <Form className="classForm">
-      <label>
-        Name:
+      <label className="classLabel">
+        Name
         <Field type="text" name="name" />
         <ErrorMessage name="name" component="div" />
       </label>
-      <label>
-        Number:
+      <label className="classLabel">
+        Number
         <Field type="text" name="number" />
         <ErrorMessage name="number" component="div" />
       </label>
