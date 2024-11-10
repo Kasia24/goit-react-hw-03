@@ -25,6 +25,7 @@ body {
   height: 50px;
   margin-left: 55px;
   margin-top: 20px;
+  cursor: pointer;
 }
 .classField {
   width: 250px;
