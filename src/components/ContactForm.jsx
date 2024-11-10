@@ -24,12 +24,12 @@ const ContactForm = ({ addContact }) => (
     <Form className="classForm">
       <label className="classLabel">
         Name
-        <Field type="text" name="name" />
+        <Field type="text" name="name" className="classField" />
         <ErrorMessage name="name" component="div" />
       </label>
       <label className="classLabel">
         Number
-        <Field type="text" name="number" />
+        <Field type="text" name="number" className="classField" />
         <ErrorMessage name="number" component="div" />
       </label>
       <button type="submit" className="classBtn">
