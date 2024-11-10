@@ -17,6 +17,7 @@ body {
 .classBtn {
   width: fit-content;
   background-color: lightgrey;
-  justify-items: center;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
