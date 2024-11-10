@@ -1,14 +1,16 @@
-import React from "react";
-
-const SearchBox = ({ filter, setFilter }) => (
-  <label
-    className="classLabel"
-    type="text"
-    value={filter}
-    onChange={(e) => setFilter(e.target.value)}
-  >
-    Find contacts by name
-  </label>
-);
+const SearchBox = ({ value, onChange }) => {
+  return (
+    <div>
+      <label>
+        Find contacts by name
+        <input
+          type="text"
+          value={value}
+          onChange={(e) => onChange(e.target.value)}
+        />
+      </label>
+    </div>
+  );
+};
 
 export default SearchBox;
