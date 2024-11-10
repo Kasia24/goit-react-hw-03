@@ -1,0 +1,8 @@
+.classLbl {
+  width: 370px;
+  margin-right: 10px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

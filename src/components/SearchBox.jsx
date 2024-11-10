@@ -4,7 +4,7 @@ import "./SearchBox.css";
 const SearchBox = ({ value, onChange }) => {
   return (
     <div>
-      <label className="classLabel">
+      <label className="classLbl">
         Find contacts by name
         <input
           type="text"
