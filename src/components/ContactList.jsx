@@ -1,5 +1,6 @@
 import React from "react";
 import Contact from "./Contact";
+import "./ContactList.css";
 
 const ContactList = ({ contacts, filter, deleteContact }) => {
   const filteredContacts = contacts.filter((contact) =>
@@ -7,7 +8,7 @@ const ContactList = ({ contacts, filter, deleteContact }) => {
   );
 
   return (
-    <ul>
+    <ul className="classList">
       {filteredContacts.map((contact) => (
         <Contact
           key={contact.id}

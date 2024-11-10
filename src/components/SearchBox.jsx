@@ -1,9 +1,10 @@
-import "";
+import React from "react";
+import "./SearchBox.css";
 
 const SearchBox = ({ value, onChange }) => {
   return (
     <div>
-      <label>
+      <label className="classLabel">
         Find contacts by name
         <input
           type="text"
