@@ -1,3 +1,5 @@
+import "";
+
 const SearchBox = ({ value, onChange }) => {
   return (
     <div>
