@@ -1,7 +1,18 @@
 .classContact {
   list-style-type: none;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  gap: 20px;
+  padding: 10px;
 }
 .btn {
   background-color: lightgrey;
+  border-radius: 0%;
+  width: fit-content;
+  display: flex;
+  flex-direction: left;
+  justify-content: space-between;
+  cursor: pointer;
 }
