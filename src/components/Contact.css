@@ -21,3 +21,7 @@
 .classSpan {
   display: flex;
 }
+.classDelete {
+  display: flex;
+  flex-direction: column;
+}
