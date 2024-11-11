@@ -13,9 +13,10 @@
   border-radius: 0%;
   width: fit-content;
   display: flex;
-  flex-direction: left;
   justify-content: space-between;
   cursor: pointer;
+  gap: 50px;
+  flex-direction: row-reverse;
 }
 .classSpan {
   display: flex;
