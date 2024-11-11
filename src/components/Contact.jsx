@@ -4,10 +4,14 @@ import { FaUser, FaPhone } from "react-icons/fa";
 
 const Contact = ({ contact, deleteContact }) => (
   <li className="classContact">
-    <span><FaUser style={{ marginRight: "8px" }} />
-    {contact.name}</span>
-    <<span>FaPhone style={{ marginRight: "8px" }} />
-    {contact.number}</span>
+    <span>
+      <FaUser style={{ marginRight: "8px" }} />
+      {contact.name}
+    </span>
+    <span>
+      <FaPhone style={{ marginRight: "8px" }} />
+      {contact.number}
+    </span>
     <button onClick={() => deleteContact(contact.id)} className="btn">
       Delete
     </button>
