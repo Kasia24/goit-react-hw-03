@@ -16,3 +16,7 @@
   justify-content: space-between;
   cursor: pointer;
 }
+.classSpan {
+  display: flex;
+  flex-direction: column;
+}
