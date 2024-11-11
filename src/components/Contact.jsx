@@ -12,9 +12,11 @@ const Contact = ({ contact, deleteContact }) => (
       <FaPhone style={{ marginRight: "8px" }} />
       {contact.number}
     </span>
-    <button onClick={() => deleteContact(contact.id)} className="btn">
-      Delete
-    </button>
+    <div>
+      <button onClick={() => deleteContact(contact.id)} className="btn">
+        Delete
+      </button>
+    </div>
   </li>
 );
 
